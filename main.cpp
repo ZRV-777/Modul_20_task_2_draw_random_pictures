@@ -13,7 +13,7 @@ int main()
     cout << "Enter height and widht: ";
     cin >> x >> y;
 
-    ofstream picture ("C:\\develop\\test\\build\\modul_20_task_2\\pic.txt");
+    ofstream picture ("pic.txt");
     if (!picture.is_open())
     {
         cerr << "Error, file is not open:";
